@@ -2,19 +2,19 @@
 
 # How to run your code?
 
-##Environment
+## Environment
 ```
 conda create -n <your_env_name> 
 conda activate <your_env_name>
 pip install -r requirement.txt
 ```
 
-##Train 
+## Train 
 ```
 bash train.sh 
 ```
 
-##Inference
+## Inference
 ```
 bash inference.sh <Path to predicted file>
 ```
