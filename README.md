@@ -1,14 +1,25 @@
 # DLCV Final Project
 
 # How to run your code?
-* TODO: Please provide the scripts for TAs to reproduce your results, including training and inference. For example, 
 
+##Environment
 ```
-bash train.sh <Path to gt image folder> <Path to annot file>
-bash inference.sh <Path to gt image folder> <Path to annot file> <Path to predicted file>
+conda create -n <your_env_name> 
+conda activate <your_env_name>
+pip install -r requirement.txt
 ```
 
-You can add more arguments to the script if you need.
+##Train 
+```
+bash train.sh 
+```
+
+##Inference
+```
+bash inference.sh <Path to predicted file>
+```
+
+Above is all for TA to reproduce. You can ignore below.
 
 # Usage
 To start working on this final project, you should clone this repository into your local machine by the following command:
